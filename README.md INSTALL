@@ -9,5 +9,5 @@ https://www.youtube.com/watch?v=KdEmPpmHCHY
 1. Запускаем Loader:
 java -jar Loader.jar
 
-2. Burp активирован, можно запускать командой (также путь для иконки):
+2. Burp активирован, можно запускать командой (Command for Louncher icon):
 "/usr/lib/jvm/java-23-openjdk-amd64/bin/java" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" "-javaagent:/root/Desktop/Burp Pro v2023.6.2/BurpPro/Loader.jar" "-noverify" "-jar" "/root/Desktop/Burp Pro v2023.6.2/BurpPro/burpsuite_pro_v2023.6.2.jar"
