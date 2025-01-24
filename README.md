@@ -1,4 +1,4 @@
-Качаем файл с Telegram:/n
+Качаем файл с Telegram:
 https://t.me/freedomf0x
 Search: Burp-Pro-v2023.6.2
 
