@@ -10,4 +10,4 @@ https://www.youtube.com/watch?v=KdEmPpmHCHY
 java -jar Loader.jar
 
 2. Burp активирован, можно запускать командой:
-"/usr/lib/jvm/java-23-openjdk-amd64/bin/java" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" "-javaagent:/root/Desktop/Burp Pro v2023.6.2/BurpPro/Loader.jar" "-noverify" "-jar" "/root/Desktop/Burp Pro v2023.6.2/BurpPro/burpsuite_pro_v2023.6.2.jar"
+<pre><code> "/usr/lib/jvm/java-23-openjdk-amd64/bin/java" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" "-javaagent:/root/Desktop/Burp Pro v2023.6.2/BurpPro/Loader.jar" "-noverify" "-jar" "/root/Desktop/Burp Pro v2023.6.2/BurpPro/burpsuite_pro_v2023.6.2.jar" </code></pre>
