@@ -11,3 +11,24 @@ java -jar Loader.jar
 
 2. Burp активирован, можно запускать командой (Command for Louncher icon):
 "/usr/lib/jvm/java-23-openjdk-amd64/bin/java" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" "-javaagent:/root/Desktop/Burp Pro v2023.6.2/BurpPro/Loader.jar" "-noverify" "-jar" "/root/Desktop/Burp Pro v2023.6.2/BurpPro/burpsuite_pro_v2023.6.2.jar"
+
+####################
+
+Debian Burp Pro:
+
+su root
+https://www.youtube.com/watch?v=pC9GThcSaMY
+
+apt-get install default-jdk
+https://www.webhi.com/how-to/how-to-install-java-with-apt-get-on-ubuntu-debian/
+
+####################
+
+Что такое пассивное сканирование?
+Vulnerability Scanners: Passive Scanning vs. Active Scanning ...
+Пассивное сканирование уязвимостей позволяет вам оценивать уязвимости в ваших приложениях, портах, операционных системах и программном обеспечении, не вмешиваясь в работу клиента или сервера . Недостатком является то, что это ограничивает объем собираемой вами информации, поэтому вы можете не получить полную картину вашего статуса уязвимости.
+https://www-zengrc-com.translate.goog/blog/vulnerability-scanners-passive-scanning-vs-active-scanning/?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=rq#:~:text=Passive%20vulnerability%20scanning%20allows%20you,picture%20of%20your%20vulnerability%20status.
+
+
+Burp Suite 2 Professional: Passive Scanning
+https://www.youtube.com/watch?v=yuaaagI7viQ
